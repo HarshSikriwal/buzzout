@@ -27,7 +27,7 @@ const SoundGenerator = ({ soundFiles }: { soundFiles: string[] }) => {
       <audio ref={audioRef} src={randomSound}></audio>
       <button
         onClick={togglePlay}
-        className={`hover:scale-105 addshadow flex bg-yellow-400 active:scale-95 rounded-full p-2 justify-center items-center`}
+        className={`hover:scale-105 flex bg-[#E8EC08]/90 add_shadow active:scale-95 rounded-full h-[56px] w-[56px] justify-center items-center`}
       >
         {isPlaying ? (
           <MdReplay className="text-3xl" />
